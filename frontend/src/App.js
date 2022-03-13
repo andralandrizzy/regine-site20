@@ -10,7 +10,7 @@ import DashboardScreen from './screens/DashboardScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import AboutListScreen from './screens/AboutListScreen';
 import AboutEditScreen from './screens/AboutEditScreen';
-import AboutScreen from './screens/AboutScreen'
+// import AboutScreen from './screens/AboutScreen'
 import UserListScreen from './screens/UserListScreen'
 import UserEditScreen from './screens/UserEditScreen'
 
@@ -23,7 +23,7 @@ import ServiceEditScreen from './screens/ServiceEditScreen';
 import ServiceDetailsScreen from './screens/ServiceDetailsScreen'
 import ServiceScreen from './screens/ServiceDetailsScreen';
 import ContactListScreen from './screens/ContactListScreen';
-import ContactDetailScreen from './screens/ContactDetailScreen';
+// import ContactDetailScreen from './screens/ContactDetailScreen';
 import FooterSection from './components/FooterSection';
 
 function App() {
@@ -51,10 +51,10 @@ function App() {
             <Route path='admin/aboutlist' element={<AboutListScreen/>}/>
             <Route path='admin/about/:id/edit' exact element={<AboutEditScreen/>} />
             <Route path='admin/contactlist' element={<ContactListScreen/>}/>
-            <Route path='admin/contact' element={<ContactDetailScreen/>}/>
+            {/* <Route path='admin/contact' element={<ContactDetailScreen/>}/> */}
             <Route path='/login' element={<LoginScreen/>}/>
             <Route path='/register' element={<RegisterScreen/>}/>
-          <Route path='/about/:id' element={<AboutScreen/>} />
+          {/* <Route path='/about/:id' element={<AboutScreen/>} /> */}
           <Route path='/admin/userlist' element={<UserListScreen/>} />
           <Route path='/admin/user/:id/edit' element={<UserEditScreen/>} />
           {/* <Route
