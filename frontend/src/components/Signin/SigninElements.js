@@ -6,7 +6,7 @@ import { FaSignInAlt } from 'react-icons/fa'
 export const SigninContainer = styled.div`
     width: 100%;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 87px auto;
 `;
 export const FormWrap = styled.div`
     height: 100%;
