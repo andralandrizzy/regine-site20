@@ -44,9 +44,15 @@ export const ShowcaseTitle = styled.h1`
     font-size: 3.5rem;
     color: #0e0e0e;
     text-transform: uppercase;
+    @media screen and (max-width : 960px){
+        font-size: 2.3rem;
+    }
 `;
 export const BreadcrumLinks = styled.div`
     font-size: 1.3rem;
+    @media screen and (max-width : 960px){
+        font-size: 1rem;
+    }
 `;
 export const PrevPage = styled(LinkRouter)`
     font-family: 'Audiowide', cursive;
@@ -56,7 +62,7 @@ export const PrevPage = styled(LinkRouter)`
 `;
 export const SpanErrow = styled.span`
     font-size: 1.3rem;
-    margin: 0 15px;
+    margin: 0 7px;
     
 `;
 export const ActivePage = styled.a`

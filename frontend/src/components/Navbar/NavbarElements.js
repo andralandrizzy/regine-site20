@@ -12,8 +12,8 @@ export const Nav = styled.nav`
     justify-content: center;
     position: sticky;
     top: 0;
-    z-index:1000;
-    margin-top: -80px;
+    z-index:100;
+    /* margin-bottom: -80px; */
     @media screen and (max-width: 960px){
         transition: 0.8s all ease;
     }
@@ -34,7 +34,7 @@ export const NavLogo = styled(LinkRouter)`
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-left: 24px;
+    margin-left: 15px;
     font-weight: bold;
     text-decoration: none;
 `;
@@ -57,7 +57,7 @@ export const MobileIcon = styled.div`
     @media screen and (max-width: 768px){
         display: block;
         position: absolute;
-        top: 0;
+        top: -0.5rem;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;

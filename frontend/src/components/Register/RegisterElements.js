@@ -21,9 +21,9 @@ export const FormWrap = styled.div`
 export const LogoImg = styled.img`
     height: 50px;
     -o-object-fit: cover;
-    object-fit: cover:
+    object-fit: cover;
     display: block;
-`;
+`
 export const Icon = styled(Link)`
     margin-left: 32px;
     margin-top: 32px;
@@ -65,9 +65,9 @@ export const FormImagewrap = styled.div`
 export const FormImage = styled.img`
     width: 100%;
     -o-object-fit: cover;
-    object-fit: cover:
+    object-fit: cover;
     display: block;
-`;
+`
 export const Form = styled.form`
     background: #fff;
     max-width: 90%;
@@ -78,7 +78,7 @@ export const Form = styled.form`
     margin: 0 auto;
     padding: 50px 32px;
     border-radius: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.9)
+    box-shadow: 0 1px 3px rgba(0,0,0,0.9);
 
 
     @media screen and (max-width : 480px){
