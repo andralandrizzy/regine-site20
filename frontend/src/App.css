@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Farsan&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Farsan", cursive;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgba(0, 240, 224, 0.09);
+  color: var(--bs-table-striped-color);
+}
+
+.pushDown {
+  margin-top: 80px;
+}
+
+.imageForm {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.ServiceFormImageFile {
+  font-size: 1rem;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 1px 1px 13px #00f0de;
+  width: 300px;
+  outline: none;
+}
+
+::-webkit-file-upload-button {
+  color: #fff;
+  background: #00f0de;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.ServiceFormImagePath {
+  border: none;
+  outline: none;
+  color: #205b57;
+  font-size: 1.2rem;
+}
+.serviceLabel {
+  font-size: 1.1rem;
+}
+
+.ServiceFormInput {
+  padding: 16px;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 4px;
+  border-bottom: solid #00f0de 2px;
+}
+
+.btn-second {
+  display: block;
+  width: 100%;
+  background: #00f0de;
+  padding: 16px 0;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-second:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #00f0de;
+  border: solid #00f0de 2px;
+}
