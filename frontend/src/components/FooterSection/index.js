@@ -29,8 +29,8 @@ const FooterSection = () => {
             <FooterInfoWrap>
               <LocIcon />
               <LocInfo>
-                1525 Cool Site St <br />
-                Miami, FL
+                3275 S John Young Parkway STE 668 <br />
+                Kissimmee, FL 34746
               </LocInfo>
             </FooterInfoWrap>
           </FooterInfo>
@@ -39,8 +39,8 @@ const FooterSection = () => {
             <FooterInfoWrap>
               <HotLineIcon />
               <PhoneInfo>
-                +1 (333) 333-3333 <br />
-                +1 (444) 444-4444
+                Phone: 407-887-8377 <br />
+                Fax: 407-904-6216
               </PhoneInfo>
             </FooterInfoWrap>
           </FooterInfo>
@@ -48,7 +48,9 @@ const FooterSection = () => {
             <FooterHeading>Email</FooterHeading>
             <FooterInfoWrap>
               <EmailIcon />
-              <EmailInfo>youremail@gmail.com</EmailInfo>
+              <EmailInfo href="mailto:homes4allconsulting@gmail.com">
+                homes4allconsulting@gmail.com
+              </EmailInfo>
             </FooterInfoWrap>
           </FooterInfo>
           <FooterInfo>

@@ -66,7 +66,7 @@ export const ServiceImage = styled.img`
 export const ServiceContent = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: start;
   gap: 40px;
