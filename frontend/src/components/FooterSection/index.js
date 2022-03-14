@@ -61,7 +61,7 @@ const FooterSection = () => {
           </FooterInfo>
         </FooterContent>
         <FooterCopyright>
-              Copyright &copy; 2022 all rights reserved
+          Copyright &copy; 2022 all rights reserved
         </FooterCopyright>
       </FooterContainer>
     </FooterWrapper>
