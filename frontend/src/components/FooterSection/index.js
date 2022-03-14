@@ -29,7 +29,7 @@ const FooterSection = () => {
             <FooterInfoWrap>
               <LocIcon />
               <LocInfo>
-                3275 S John Young Parkway STE 668 <br />
+                3275 S John Young Parkway <br /> STE 668 <br />
                 Kissimmee, FL 34746
               </LocInfo>
             </FooterInfoWrap>
