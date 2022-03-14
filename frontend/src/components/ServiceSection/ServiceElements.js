@@ -57,7 +57,7 @@ export const ServiceImage = styled.img`
   -o-object-fit: cover;
   object-fit: cover;
   object-position: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   :hover {
     transform: scale(1.01);
     transition: all 0.2s ease-in-out;
@@ -72,7 +72,7 @@ export const ServiceContent = styled.div`
   gap: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 30px 12px;
+  /* padding: 30px 12px; */
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -81,9 +81,7 @@ export const ServiceContent = styled.div`
     grid-template-columns: 1fr;
   }
 `;
-export const ServiceCardWrapper = styled.div`
-  // display: grid;
-`;
+export const ServiceCardWrapper = styled.div``;
 export const LinkR = styled(LinkRouter)`
   text-decoration: none;
   color: #000;
@@ -91,6 +89,11 @@ export const LinkR = styled(LinkRouter)`
     color: #00f0de;
   }
 `;
+export const ServiceInfoWrap = styled.div`
+  padding: 0 20px 20px 20px;
+  background-color: rgba(206, 206, 206, 0.15);
+`;
+
 export const ServiceCardTitle = styled.div`
   font-family: "Audiowide", cursive;
   padding: 18px 0;
