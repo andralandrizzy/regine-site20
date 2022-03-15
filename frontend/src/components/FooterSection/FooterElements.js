@@ -85,7 +85,7 @@ export const EmailInfo = styled.a`
 export const FooterCopyright = styled.p`
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 50px;
+  margin: 15px 0;
   color: #707070;
 `;
 export const IgIcon = styled(AiFillInstagram)`

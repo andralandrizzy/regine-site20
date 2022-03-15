@@ -8,7 +8,6 @@ import { logout } from "../../actions/userActions";
 import {
   Nav,
   NavbarContainer,
-  NavLogo,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -16,12 +15,12 @@ import {
   NavBtn,
   NavBtnLink,
   LogoutBtn,
-  ImgLogo,
   NavDropdownBtn,
   NavBtnLinkR,
   DropIcon,
   NavDropdownMenu,
 } from "./NavbarElements";
+import Logo from "../Logo";
 
 const Navbar = ({ toggle }) => {
   const navigate = useNavigate();
@@ -57,9 +56,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
-            <ImgLogo src={logo} alt="site logo" />
-          </NavLogo>
+          <Logo />
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

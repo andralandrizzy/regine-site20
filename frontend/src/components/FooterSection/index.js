@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../Logo";
 import {
   EmailIcon,
   EmailInfo,
@@ -63,7 +64,10 @@ const FooterSection = () => {
           </FooterInfo>
         </FooterContent>
         <FooterCopyright>
-          Copyright &copy; 2022 all rights reserved
+          <Logo />
+          <span style={{ marginTop: "30px" }}>
+            Copyright &copy; 2022 all rights reserved
+          </span>
         </FooterCopyright>
       </FooterContainer>
     </FooterWrapper>
