@@ -52,6 +52,7 @@ export const HeroContent = styled.div`
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: rgba(225, 225, 225, 0.55);
   padding: 20px;
