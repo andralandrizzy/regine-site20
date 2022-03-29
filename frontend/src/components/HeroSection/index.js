@@ -27,16 +27,31 @@ const HeroSection = () => {
       <HeroContent>
         <HeroTitle>Welcome</HeroTitle>
         <HeroText>
-          Have a look around and learn all there is to know about us. Don't
-          forget to check out the services we are offering. Feel free to
-          continue explore and take a moment to drop us a line so we can talk
-          about next steps.
+          {`${
+            "Homes 4 All Consulting is a full service real estate investment.\
+          consulting agency. We help our clients identify investments that meet\
+          their needs. By creating a well-defined investment criteria which\
+          include desired property sectors, targeted geographic regions,\
+          acceptable risk parameters and appropriate investment return\
+          thresholds. We perform feasibility assessments; conduct due diligence;\
+          and support them through all phases of the transaction. The new\
+          Caption page Homes 4 All Consulting is a full service real estate\
+          investment consulting agency. We help our clients identify investments\
+          that meet their needs. By creating a well-defined investment criteria\
+          which include desired property sectors, targeted geographic regions,\
+          acceptable risk parameters and appropriate investment return\
+          thresholds. We perform feasibility assessments; conduct due diligence;\
+          and support them through all phases of the transaction.".substring(
+              0,
+              230
+            ) + "..."
+          }`}
         </HeroText>
         <HeroBtnWrapper>
           <Button
-            fontbig='false'
-            primary='true'
-            dark='true'
+            fontbig="false"
+            primary="true"
+            dark="true"
             to="about"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
@@ -46,7 +61,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Find out more {hover ? <ArrowForward /> : <ArrowRight />}
+            Read more {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

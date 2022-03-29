@@ -31,7 +31,7 @@ const ServiceSection = () => {
     <>
       <ServiceContainer id="services">
         <ServiceHeading>Our Services</ServiceHeading>
-        <ServiceSubHeading>What we offer to our supporters</ServiceSubHeading>
+        <ServiceSubHeading>What we offer to our clients</ServiceSubHeading>
         <ServiceContent>
           {services.map((service) => (
             <ServiceCardWrapper key={service._id}>

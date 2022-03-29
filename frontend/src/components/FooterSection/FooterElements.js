@@ -53,11 +53,11 @@ export const FooterIconWrap = styled.div`
   display: flex;
   gap: 25px;
   font-size: 1.5rem;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   color: #707070;
-  margin-top: 20px;
+  margin-bottom: 40px;
 `;
 export const LocIcon = styled(MdLocationOn)`
   font-size: 2rem;
