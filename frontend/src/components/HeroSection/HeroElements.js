@@ -55,12 +55,10 @@ export const HeroContent = styled.div`
   align-items: center;
   background: rgba(225, 225, 225, 0.55);
   padding: 20px;
-  /* margin: 0 auto; */
   border-radius: 7px;
-  /* border: solid red 1px; */
 
   @media screen and (max-width: 768px) {
-    margin: 0px 15px;
+    margin: 10px;
   }
 `;
 export const HeroTitle = styled.h1`

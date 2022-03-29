@@ -35,7 +35,7 @@ const AboutSection = () => {
     <AboutContainer id="about">
       <AboutHeading>About Us</AboutHeading>
       <AboutIntro>
-        Homes 4 All Consulting is a full service real estate investment.
+        Homes 4 All Consulting is a full service real estate investment
         consulting agency. We help our clients identify investments that meet
         their needs. By creating a well-defined investment criteria which
         include desired property sectors, targeted geographic regions,
