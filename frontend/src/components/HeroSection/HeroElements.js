@@ -77,7 +77,7 @@ export const HeroTitle = styled.h1`
   }
 `;
 export const HeroText = styled.p`
-  color: rgba(0, 0, 0, 0.724);
+  color: rgba(0, 0, 0, 0.999);
   font-size: 24px;
   text-align: start;
   /* margin-top: 24px; */
