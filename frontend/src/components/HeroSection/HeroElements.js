@@ -55,7 +55,9 @@ export const HeroContent = styled.div`
   align-items: center;
   background: rgba(225, 225, 225, 0.55);
   padding: 20px;
-  border-radius: 5px;
+  /* margin: 0 auto; */
+  border-radius: 7px;
+  /* border: solid red 1px; */
 
   @media screen and (max-width: 768px) {
     margin: 0px 15px;
@@ -63,8 +65,8 @@ export const HeroContent = styled.div`
 `;
 export const HeroTitle = styled.h1`
   font-family: "Audiowide", cursive;
-  color: #000;
-  font-size: 92px;
+  color: #4a4b4b;
+  font-size: 82px;
   text-align: start;
 
   @media screen and (max-width: 768px) {
@@ -83,7 +85,6 @@ export const HeroText = styled.p`
   line-height: 1.5;
   letter-spacing: 1px;
   text-align: center;
-  margin: 15px 0;
   @media screen and (max-width: 768px) {
     font-size: 24px;
     width: 100%;

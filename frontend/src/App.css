@@ -71,7 +71,7 @@
 }
 .btn-second:hover {
   transition: all 0.2s ease-in-out;
-  background: #fff;
+  background: rgb(26, 25, 25);
   color: #00f0de;
   border: solid #00f0de 2px;
 }

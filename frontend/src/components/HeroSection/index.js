@@ -28,17 +28,10 @@ const HeroSection = () => {
         <HeroTitle>Welcome</HeroTitle>
         <HeroText>
           {`${
-            "Homes 4 All Consulting is a full service real estate investment.\
+            "Homes 4 All Consulting is a full service real estate investment\
           consulting agency. We help our clients identify investments that meet\
           their needs. By creating a well-defined investment criteria which\
           include desired property sectors, targeted geographic regions,\
-          acceptable risk parameters and appropriate investment return\
-          thresholds. We perform feasibility assessments; conduct due diligence;\
-          and support them through all phases of the transaction. The new\
-          Caption page Homes 4 All Consulting is a full service real estate\
-          investment consulting agency. We help our clients identify investments\
-          that meet their needs. By creating a well-defined investment criteria\
-          which include desired property sectors, targeted geographic regions,\
           acceptable risk parameters and appropriate investment return\
           thresholds. We perform feasibility assessments; conduct due diligence;\
           and support them through all phases of the transaction.".substring(
