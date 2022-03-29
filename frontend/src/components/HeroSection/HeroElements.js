@@ -48,7 +48,14 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
+  height: 50vh;
+  width: 960px;
   position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
@@ -57,9 +64,10 @@ export const HeroContent = styled.div`
   background: rgba(225, 225, 225, 0.55);
   padding: 20px;
   border-radius: 7px;
+  /* border: red solid 1px; */
 
   @media screen and (max-width: 768px) {
-    margin: 10px;
+    width: 95vw;
   }
 `;
 export const HeroTitle = styled.h1`
