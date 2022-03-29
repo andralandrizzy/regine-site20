@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import AnimatedNumbber from "react-animated-number";
 import {
   StatsContainer,
   StatsMainWrapper,
@@ -7,27 +8,24 @@ import {
   StatsHeading,
 } from "./StatsElements";
 
+// const [loadindStat, setLoadingStat] = useState(false);
+
 const StatsSection = () => {
   const StatsData = [
     {
       id: 1,
       num: 2500,
-      heading: "Happy Client",
+      heading: "Happy Clients",
     },
     {
       id: 2,
-      num: `${50}+`,
+      num: 50,
       heading: "Staff Members",
     },
     {
       id: 3,
-      num: 15,
+      num: 10,
       heading: "Years of experience",
-    },
-    {
-      id: 4,
-      num: `24/7`,
-      heading: "Working Hours",
     },
   ];
   return (
@@ -35,7 +33,14 @@ const StatsSection = () => {
       <StatsMainWrapper>
         {StatsData.map((stats_content) => (
           <StatsWrap key={stats_content.id}>
-            <StatsNumber>{stats_content.num}</StatsNumber>
+            <StatsNumber>
+              <AnimatedNumbber
+                value={Number(stats_content.num)}
+                formatValue={(v) => v.toFixed(0)}
+                duration={2000}
+                style={{ fontSize: 75 }}
+              />{" "}
+            </StatsNumber>
             <StatsHeading>{stats_content.heading}</StatsHeading>
           </StatsWrap>
         ))}
